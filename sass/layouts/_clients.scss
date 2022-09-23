@@ -9,9 +9,7 @@
 }
 
 .clients-list__link {
-  @include flex-center;
-  height: 92px;
-  width: 170px;
+  display: block;
   border: 1px solid var(--light-ico-cl);
   border-radius: 4px;
   fill: var(--light-ico-cl);
@@ -25,4 +23,10 @@
     border-color: var(--blue-cl);
     outline: none;
   }
+}
+
+.clients-list__thumb {
+  @include flex-center;
+  height: 92px;
+  width: 170px;
 }
