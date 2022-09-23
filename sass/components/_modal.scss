@@ -45,9 +45,7 @@
 }
 
 .modal__close-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-center;
   position: absolute;
   right: 8px;
   top: 8px;

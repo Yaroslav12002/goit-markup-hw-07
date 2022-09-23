@@ -5,39 +5,37 @@
 */
 
 .features__list {
-    display: flex;
+  display: flex;
 }
 
 .features__item {
-    flex-basis: calc((100% - 30px) / 4);
+  flex-basis: calc((100% - 30px) / 4);
 }
 
 .features__item:not(:last-child) {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 .features__title {
-    margin-top: 0;
-    margin-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
 
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-    text-align: left;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: left;
 }
 
 .features__text {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .features__thumb {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 120px;
-    width: 270px;
-    margin-bottom: 30px;
+  @include flex-center;
+  height: 120px;
+  width: 270px;
+  margin-bottom: 30px;
 
-    background-color: var(--btn-bg-cl);
+  background-color: var(--btn-bg-cl);
 }

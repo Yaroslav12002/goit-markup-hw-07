@@ -1,0 +1,7 @@
+@mixin flex-center() {
+  /* mixin start */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* mixin end */
+}

@@ -10,9 +10,7 @@
 }
 
 .clients-list__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center;
   height: 92px;
   width: 170px;
   border: 1px solid var(--light-ico-cl);
