@@ -5,8 +5,7 @@
 */
 
 .filter {
-  display: flex;
-  justify-content: center;
+  @include flex-center(true, false);
   margin-bottom: 50px;
 }
 

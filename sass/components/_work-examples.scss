@@ -5,8 +5,7 @@
 */
 
 .work-list {
-  display: flex;
-  justify-content: center;
+  @include flex-center(true, false);
 }
 
 .work-list__item {

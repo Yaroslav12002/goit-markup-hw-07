@@ -30,8 +30,7 @@
 }
 
 .policy__link {
-  display: flex;
-  align-items: center;
+  @include flex-center(false, true);
   color: var(--blue-cl);
   border-bottom: 1px solid var(--blue-cl);
   height: 15px;

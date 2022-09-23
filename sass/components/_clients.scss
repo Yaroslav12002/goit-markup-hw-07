@@ -4,9 +4,8 @@
 |=================================
 */
 .clients-list {
-  display: flex;
+  @include flex-center(true, false);
   gap: 30px;
-  justify-content: center;
 }
 
 .clients-list__link {
